@@ -11,9 +11,11 @@
 		D1D1D6771DBEEEE4009EF94D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D1D6761DBEEEE4009EF94D /* AppDelegate.m */; };
 		D1D1D67A1DBEEEE4009EF94D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D1D6791DBEEEE4009EF94D /* ViewController.m */; };
 		D1D1D67D1DBEEEE4009EF94D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1D1D67B1DBEEEE4009EF94D /* Main.storyboard */; };
-		D1D1D67F1DBEEEE4009EF94D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1D1D67E1DBEEEE4009EF94D /* Assets.xcassets */; };
 		D1D1D6821DBEEEE4009EF94D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1D1D6801DBEEEE4009EF94D /* LaunchScreen.storyboard */; };
 		D1D1D68D1DBEEEE4009EF94D /* PhotosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D1D68C1DBEEEE4009EF94D /* PhotosTests.m */; };
+		D1D1D6991DBEF34D009EF94D /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D1D6981DBEF34D009EF94D /* CollectionViewCell.m */; };
+		D1D1D69C1DBEF38B009EF94D /* TyhLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D1D69B1DBEF38B009EF94D /* TyhLayout.m */; };
+		D1D1D69E1DBF041E009EF94D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1D1D69D1DBF041E009EF94D /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +36,16 @@
 		D1D1D6781DBEEEE4009EF94D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D1D1D6791DBEEEE4009EF94D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D1D1D67C1DBEEEE4009EF94D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D1D1D67E1DBEEEE4009EF94D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1D1D6811DBEEEE4009EF94D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1D1D6831DBEEEE4009EF94D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1D1D6881DBEEEE4009EF94D /* PhotosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1D1D68C1DBEEEE4009EF94D /* PhotosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotosTests.m; sourceTree = "<group>"; };
 		D1D1D68E1DBEEEE4009EF94D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1D1D6971DBEF34D009EF94D /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		D1D1D6981DBEF34D009EF94D /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		D1D1D69A1DBEF38B009EF94D /* TyhLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TyhLayout.h; sourceTree = "<group>"; };
+		D1D1D69B1DBEF38B009EF94D /* TyhLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TyhLayout.m; sourceTree = "<group>"; };
+		D1D1D69D1DBF041E009EF94D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,10 +91,14 @@
 				D1D1D6761DBEEEE4009EF94D /* AppDelegate.m */,
 				D1D1D6781DBEEEE4009EF94D /* ViewController.h */,
 				D1D1D6791DBEEEE4009EF94D /* ViewController.m */,
+				D1D1D6971DBEF34D009EF94D /* CollectionViewCell.h */,
+				D1D1D6981DBEF34D009EF94D /* CollectionViewCell.m */,
+				D1D1D69A1DBEF38B009EF94D /* TyhLayout.h */,
+				D1D1D69B1DBEF38B009EF94D /* TyhLayout.m */,
 				D1D1D67B1DBEEEE4009EF94D /* Main.storyboard */,
-				D1D1D67E1DBEEEE4009EF94D /* Assets.xcassets */,
 				D1D1D6801DBEEEE4009EF94D /* LaunchScreen.storyboard */,
 				D1D1D6831DBEEEE4009EF94D /* Info.plist */,
+				D1D1D69D1DBF041E009EF94D /* Assets.xcassets */,
 				D1D1D6721DBEEEE4009EF94D /* Supporting Files */,
 			);
 			path = Photos;
@@ -194,7 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1D1D6821DBEEEE4009EF94D /* LaunchScreen.storyboard in Resources */,
-				D1D1D67F1DBEEEE4009EF94D /* Assets.xcassets in Resources */,
+				D1D1D69E1DBF041E009EF94D /* Assets.xcassets in Resources */,
 				D1D1D67D1DBEEEE4009EF94D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,8 +223,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1D1D69C1DBEF38B009EF94D /* TyhLayout.m in Sources */,
 				D1D1D67A1DBEEEE4009EF94D /* ViewController.m in Sources */,
 				D1D1D6771DBEEEE4009EF94D /* AppDelegate.m in Sources */,
+				D1D1D6991DBEF34D009EF94D /* CollectionViewCell.m in Sources */,
 				D1D1D6741DBEEEE4009EF94D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
